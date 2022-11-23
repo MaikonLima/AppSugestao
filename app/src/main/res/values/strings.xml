@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppSugestao</string>
+
+    <string name="titleSugestao">Caixa de Sugestão</string>
+
+    <!-- MAIN_PAGE -->
+    <string name="identificar">Identificar</string>
+    <string name="naoIndetificar">Não identificar</string>
+    <string name="seInscrever">Não tem conta? Criar conta.</string>
+
+    <!-- SECOND_PAGE -->
+    <string name="btEnviar">Enviar sugestão</string>
+    <string name="titleTexto">Titulo da sugestão</string>
+    <string name="mutlineTexto">Escreva aqui seu comentário</string>
+
+    <!-- LOGIN_PAGE-->
+    <string name="user">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="signin">Entrar</string>
+</resources>
