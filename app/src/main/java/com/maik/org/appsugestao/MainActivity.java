@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,5 +37,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(nextPage);
             }
         });
+
+
+        TextView tvNewUse = findViewById(R.id.tvNewUser);
+        tvNewUse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newForm = new Intent(getApplicationContext(), FormUsuario.class);
+                startActivity(newForm);
+            }
+        });
+
     }
 }

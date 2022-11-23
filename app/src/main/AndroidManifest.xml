@@ -13,6 +13,14 @@
         android:theme="@style/Theme.AppSugestao"
         tools:targetApi="31">
         <activity
+            android:name=".FormUsuario"
+            android:exported="false"
+            android:label="Formuário de Cadastro">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".PainelSugestao"
             android:exported="false"
             android:label="Sugestão">

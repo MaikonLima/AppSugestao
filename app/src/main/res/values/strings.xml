@@ -17,4 +17,13 @@
     <string name="user">Usuário</string>
     <string name="password">Senha</string>
     <string name="signin">Entrar</string>
+
+    <!--Formulario de Cadastro-->
+    <string name="nameUser">Nome</string>
+    <string name="sobreNomeUser">Sobrenome</string>
+    <string name="emailUser">E-mail</string>
+    <string name="telephoneUser">Telefone</string>
+    <string name="passwordNew">Senha</string>
+    <string name="passwordConfirm">Confirme sua senha</string>
+    <string name="saveDados">Enviar</string>
 </resources>
